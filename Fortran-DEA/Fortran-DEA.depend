@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1435625811 source:c:\users\seth\documents\fortran-c-lp\fortran-glpk\src\glpk_constants.f90
+
+1435625811 source:c:\users\seth\documents\fortran-c-lp\fortran-glpk\src\glpk_types.f90
+
+1435626698 source:c:\users\seth\documents\fortran-c-lp\fortran-lp_solve\src\lp_solve_constants.f90
+
+1435626790 source:c:\users\seth\documents\fortran-c-lp\fortran-lp_solve\src\lp_solve_types.f90
+
+1435014829 source:c:\users\seth\documents\fortran-c-lp\fortran-dea\src\main.f90
+
+1435630737 source:c:\users\seth\documents\fortran-c-lp\fortran-glpk\src\glpk.f90
+
+1435628172 source:c:\users\seth\documents\fortran-c-lp\fortran-lp_solve\src\lp_solve.f90
+
+1435642659 source:c:\users\seth\documents\fortran-c-lp\fortran-dea\src\glpk.f90
+
+1435642613 source:c:\users\seth\documents\fortran-c-lp\fortran-dea\src\lpsolve.f90
+

@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1433974933 source:c:\users\seth\documents\working_dir\lp_solve-test\main.c
+	<stdio.h>
+	"lp_lib.h"
+
+1281454211 c:\users\seth\documents\working_dir\lp_solve\src\lp_lib.h
+	<sys/types.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	<stdio.h>
+	"lp_types.h"
+	"lp_utils.h"
+	<windows.h>
+	<dlfcn.h>
+	"lp_Hash.h"
+	"lp_matrix.h"
+	"lp_mipbb.h"
+	"lp_SOS.h"
+
+1433838026 c:\users\seth\documents\working_dir\lp_solve\src\lp_types.h
+	<windows.h>
+
+1251406269 c:\users\seth\documents\working_dir\lp_solve\src\lp_utils.h
+	"lp_fortify.h"
+	"lp_types.h"
+
+1233520307 c:\users\seth\documents\working_dir\lp_solve\src\lp_fortify.h
+	"fortify.h"
+
+1233520305 c:\users\seth\documents\working_dir\lp_solve\src\fortify.h
+	<stdlib.h>
+	"declare.h"
+
+1233540400 c:\users\seth\documents\working_dir\lp_solve\src\declare.h
+
+1233520308 c:\users\seth\documents\working_dir\lp_solve\src\lp_hash.h
+
+1233520309 c:\users\seth\documents\working_dir\lp_solve\src\lp_matrix.h
+	"lp_types.h"
+	"lp_utils.h"
+
+1233520310 c:\users\seth\documents\working_dir\lp_solve\src\lp_mipbb.h
+	"lp_types.h"
+	"lp_utils.h"
+
+1233520317 c:\users\seth\documents\working_dir\lp_solve\src\lp_sos.h
+	"lp_types.h"
+	"lp_utils.h"
+	"lp_matrix.h"
+

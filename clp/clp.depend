@@ -1,0 +1,2011 @@
+# depslib dependency file v1.0
+1433631801 source:c:\users\seth\documents\fortran-c-sol\clp\src\abcdualrowdantzig.cpp
+	"CoinPragma.hpp"
+	"AbcSimplex.hpp"
+	"AbcDualRowDantzig.hpp"
+	"AbcSimplexFactorization.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpragma.hpp
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\abcsimplex.hpp
+	<iostream>
+	<cfloat>
+	"ClpModel.hpp"
+	"ClpMatrixBase.hpp"
+	"CoinIndexedVector.hpp"
+	"AbcCommon.hpp"
+	"ClpSolve.hpp"
+	"CoinAbcCommon.hpp"
+	"ClpSimplex.hpp"
+	<pthread.h>
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpmodel.hpp
+	"ClpConfig.h"
+	<iostream>
+	<cassert>
+	<cmath>
+	<vector>
+	<string>
+	"ClpPackedMatrix.hpp"
+	"CoinMessageHandler.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinTypes.hpp"
+	"CoinFinite.hpp"
+	"ClpParameters.hpp"
+	"ClpObjective.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpconfig.h
+	"config.h"
+	"config_clp.h"
+	"config_default.h"
+	"config_clp_default.h"
+
+1434416088 c:\users\seth\documents\fortran-c-sol\clp\src\config.h
+
+1434416088 c:\users\seth\documents\fortran-c-sol\clp\src\config_clp.h
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\config_default.h
+	"configall_system.h"
+	"config_clp_default.h"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\config_clp_default.h
+
+1433631801 c:\users\seth\documents\fortran-c-sol\clp\src\clppackedmatrix.hpp
+	"CoinPragma.hpp"
+	"ClpMatrixBase.hpp"
+	<pthread.h>
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpmatrixbase.hpp
+	"CoinPragma.hpp"
+	"CoinTypes.hpp"
+	"CoinPackedMatrix.hpp"
+
+1433632202 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\cointypes.hpp
+	"CoinUtilsConfig.h"
+	<stdint.h>
+	<cstdint>
+
+1433632202 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinutilsconfig.h
+	"config.h"
+	"config_coinutils.h"
+	"config_default.h"
+	"config_coinutils_default.h"
+
+1434415973 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\config.h
+
+1434415973 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\config_coinutils.h
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\config_default.h
+	"configall_system.h"
+	"config_coinutils_default.h"
+
+1433632202 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\config_coinutils_default.h
+	<BaseTsd.h>
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpackedmatrix.hpp
+	"CoinError.hpp"
+	"CoinTypes.hpp"
+	"CoinPackedVectorBase.hpp"
+	"CoinShallowPackedVector.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinerror.hpp
+	<string>
+	<iostream>
+	<cassert>
+	<cstring>
+	"CoinUtilsConfig.h"
+	"CoinPragma.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpackedvectorbase.hpp
+	<set>
+	<map>
+	"CoinPragma.hpp"
+	"CoinError.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinshallowpackedvector.hpp
+	"CoinError.hpp"
+	"CoinPackedVectorBase.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinmessagehandler.hpp
+	"CoinUtilsConfig.h"
+	"CoinPragma.hpp"
+	<iostream>
+	<cstdio>
+	<string>
+	<vector>
+
+1433632202 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinhelperfunctions.hpp
+	"CoinUtilsConfig.h"
+	<direct.h>
+	<cctype>
+	<cctype>
+	<unistd.h>
+	<cstdlib>
+	<cstdio>
+	<algorithm>
+	"CoinTypes.hpp"
+	"CoinError.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinfinite.hpp
+	<limits>
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpparameters.hpp
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpobjective.hpp
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinindexedvector.hpp
+	<map>
+	"CoinFinite.hpp"
+	"CoinPackedVectorBase.hpp"
+	"CoinSort.hpp"
+	"CoinHelperFunctions.hpp"
+	<cassert>
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinsort.hpp
+	<functional>
+	<new>
+	<algorithm>
+	"CoinDistance.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coindistance.hpp
+	<iterator>
+
+1433631801 c:\users\seth\documents\fortran-c-sol\clp\src\abccommon.hpp
+	"ClpConfig.h"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpsolve.hpp
+	"ClpConfig.h"
+	"AbcCommon.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\coinabccommon.hpp
+	"CoinPragma.hpp"
+	"CoinUtilsConfig.h"
+	<iostream>
+	<string>
+	<cassert>
+	<cstdio>
+	<cmath>
+	"AbcCommon.hpp"
+	"CoinHelperFunctions.hpp"
+	<cilk/cilk.h>
+	<endian.h>
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpsimplex.hpp
+	<iostream>
+	<cfloat>
+	"ClpModel.hpp"
+	"ClpMatrixBase.hpp"
+	"ClpSolve.hpp"
+	"ClpConfig.h"
+	"AbcCommon.hpp"
+	"CoinAbcCommon.hpp"
+	<pthread.h>
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\abcdualrowdantzig.hpp
+	"AbcDualRowPivot.hpp"
+
+1433631801 c:\users\seth\documents\fortran-c-sol\clp\src\abcdualrowpivot.hpp
+	"AbcCommon.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\abcsimplexfactorization.hpp
+	"CoinPragma.hpp"
+	"CoinAbcCommon.hpp"
+	"CoinAbcFactorization.hpp"
+	"AbcMatrix.hpp"
+	"AbcSimplex.hpp"
+	"ClpFactorization.hpp"
+	"CoinFactorization.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\coinabcfactorization.hpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\coinabccommonfactorization.hpp
+	"CoinAbcCommon.hpp"
+	"CoinAbcDenseFactorization.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\coinabcdensefactorization.hpp
+	<iostream>
+	<string>
+	<cassert>
+	"CoinTypes.hpp"
+	"CoinAbcCommon.hpp"
+	"CoinIndexedVector.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\coinabcbasefactorization.hpp
+	"AbcCommon.hpp"
+	"CoinAbcHelperFunctions.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\coinabchelperfunctions.hpp
+	"ClpConfig.h"
+	<cmath>
+	<math.h>
+	<cmath>
+	"CoinAbcCommon.hpp"
+	"emmintrin.h"
+	<immintrin.h>
+	"avx2intrin.h"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\abcmatrix.hpp
+	"CoinPragma.hpp"
+	"ClpMatrixBase.hpp"
+	"AbcSimplex.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	<pthread.h>
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpfactorization.hpp
+	"CoinPragma.hpp"
+	"CoinFactorization.hpp"
+	"CoinDenseFactorization.hpp"
+	"ClpSimplex.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinfactorization.hpp
+	<iostream>
+	<string>
+	<cassert>
+	<cstdio>
+	<cmath>
+	"CoinTypes.hpp"
+	"CoinIndexedVector.hpp"
+
+1433632202 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coindensefactorization.hpp
+	<iostream>
+	<string>
+	<cassert>
+	"CoinTypes.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinFactorization.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\abcdualrowpivot.cpp
+	"CoinPragma.hpp"
+	"AbcSimplex.hpp"
+	"AbcDualRowPivot.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\abcdualrowsteepest.cpp
+	"CoinPragma.hpp"
+	"AbcSimplex.hpp"
+	"ClpMessage.hpp"
+	"AbcDualRowSteepest.hpp"
+	"CoinIndexedVector.hpp"
+	"AbcSimplexFactorization.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	<cstdio>
+	<cilk/reducer_max.h>
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpmessage.hpp
+	"CoinPragma.hpp"
+	<cstring>
+	"CoinMessageHandler.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\abcdualrowsteepest.hpp
+	"AbcDualRowPivot.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\abcmatrix.cpp
+	<cstdio>
+	"CoinPragma.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"AbcSimplexFactorization.hpp"
+	"AbcPrimalColumnDantzig.hpp"
+	"AbcPrimalColumnSteepest.hpp"
+	"CoinTime.hpp"
+	"AbcSimplex.hpp"
+	"AbcSimplexDual.hpp"
+	"AbcMatrix.hpp"
+	"ClpMessage.hpp"
+	"mkl_spblas.h"
+	<cilk/cilk.h>
+	<cilk/cilk_api.h>
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\abcprimalcolumndantzig.hpp
+	"AbcPrimalColumnPivot.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\abcprimalcolumnpivot.hpp
+	"AbcCommon.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\abcprimalcolumnsteepest.hpp
+	"AbcPrimalColumnPivot.hpp"
+	<bitset>
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\cointime.hpp
+	<ctime>
+	<sys/time.h>
+	<sys/resource.h>
+	<windows.h>
+	<sys/types.h>
+	<sys/timeb.h>
+	<sys/time.h>
+	<windows.h>
+	<fstream>
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\abcsimplexdual.hpp
+	"AbcSimplex.hpp"
+	<cilk/cilk.h>
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\abcnonlinearcost.cpp
+	"CoinPragma.hpp"
+	<iostream>
+	<cassert>
+	"CoinIndexedVector.hpp"
+	"AbcSimplex.hpp"
+	"CoinHelperFunctions.hpp"
+	"AbcNonLinearCost.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\abcnonlinearcost.hpp
+	"CoinPragma.hpp"
+	"AbcCommon.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\abcprimalcolumndantzig.cpp
+	"CoinPragma.hpp"
+	<cstdio>
+	"CoinIndexedVector.hpp"
+	"AbcSimplex.hpp"
+	"AbcPrimalColumnDantzig.hpp"
+	"AbcSimplexFactorization.hpp"
+	"AbcMatrix.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\abcprimalcolumnpivot.cpp
+	"CoinPragma.hpp"
+	"AbcSimplex.hpp"
+	"AbcPrimalColumnPivot.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\abcprimalcolumnsteepest.cpp
+	"CoinPragma.hpp"
+	"AbcSimplex.hpp"
+	"AbcPrimalColumnSteepest.hpp"
+	"CoinIndexedVector.hpp"
+	"AbcSimplexFactorization.hpp"
+	"AbcNonLinearCost.hpp"
+	"ClpMessage.hpp"
+	"CoinHelperFunctions.hpp"
+	<stdio.h>
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\abcsimplex.cpp
+	"ClpConfig.h"
+	"CoinPragma.hpp"
+	<math.h>
+	"CoinHelperFunctions.hpp"
+	"CoinFloatEqual.hpp"
+	"ClpSimplex.hpp"
+	"AbcSimplex.hpp"
+	"AbcSimplexDual.hpp"
+	"AbcSimplexFactorization.hpp"
+	"AbcNonLinearCost.hpp"
+	"CoinAbcCommon.hpp"
+	"AbcMatrix.hpp"
+	"CoinIndexedVector.hpp"
+	"AbcDualRowDantzig.hpp"
+	"AbcDualRowSteepest.hpp"
+	"AbcPrimalColumnDantzig.hpp"
+	"AbcPrimalColumnSteepest.hpp"
+	"ClpMessage.hpp"
+	"ClpEventHandler.hpp"
+	"ClpLinearObjective.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"CoinModel.hpp"
+	"CoinLpIO.hpp"
+	<cfloat>
+	<string>
+	<stdio.h>
+	<iostream>
+	"ClpDualRowSteepest.hpp"
+	"ClpPrimalColumnSteepest.hpp"
+	"ClpFactorization.hpp"
+	"AbcSimplexDual.hpp"
+	"AbcSimplexPrimal.hpp"
+	"CoinWarmStartBasis.hpp"
+	"CoinAbcCommon.hpp"
+	"ClpFactorization.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinfloatequal.hpp
+	<algorithm>
+	<cmath>
+	"CoinFinite.hpp"
+
+1433631801 c:\users\seth\documents\fortran-c-sol\clp\src\clpeventhandler.hpp
+	"ClpSimplex.hpp"
+
+1433631801 c:\users\seth\documents\fortran-c-sol\clp\src\clplinearobjective.hpp
+	"ClpObjective.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinmodel.hpp
+	"CoinModelUseful.hpp"
+	"CoinMessageHandler.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinFinite.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinmodeluseful.hpp
+	<cstdlib>
+	<cmath>
+	<cassert>
+	<cfloat>
+	<cstring>
+	<cstdio>
+	<iostream>
+	"CoinPragma.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinlpio.hpp
+	<cstdio>
+	"CoinPackedMatrix.hpp"
+	"CoinMessage.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinmessage.hpp
+	"CoinMessageHandler.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpdualrowsteepest.hpp
+	"ClpDualRowPivot.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpdualrowpivot.hpp
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpprimalcolumnsteepest.hpp
+	"ClpPrimalColumnPivot.hpp"
+	<bitset>
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpprimalcolumnpivot.hpp
+
+1433631801 c:\users\seth\documents\fortran-c-sol\clp\src\abcsimplexprimal.hpp
+	"AbcSimplex.hpp"
+
+1433632202 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinwarmstartbasis.hpp
+	<vector>
+	"CoinSort.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinWarmStart.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinwarmstart.hpp
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\abcsimplexdual.cpp
+	"CoinPragma.hpp"
+	<math.h>
+	"CoinHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"AbcSimplexDual.hpp"
+	"ClpEventHandler.hpp"
+	"AbcSimplexFactorization.hpp"
+	"AbcNonLinearCost.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinFloatEqual.hpp"
+	"AbcDualRowDantzig.hpp"
+	"AbcDualRowSteepest.hpp"
+	"ClpMessage.hpp"
+	"ClpLinearObjective.hpp"
+	<cfloat>
+	<cassert>
+	<string>
+	<stdio.h>
+	<iostream>
+	"CoinTime.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\abcsimplexfactorization.cpp
+	"CoinPragma.hpp"
+	"AbcSimplexFactorization.hpp"
+	"ClpFactorization.hpp"
+	"ClpMessage.hpp"
+	"CoinAbcCommon.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinIndexedVector.hpp"
+	"AbcSimplex.hpp"
+	"AbcSimplexDual.hpp"
+	"AbcMatrix.hpp"
+	"CoinAbcFactorization.hpp"
+	"CoinFactorization.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\abcsimplexparallel.cpp
+	"CoinPragma.hpp"
+	<math.h>
+	"CoinHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"AbcSimplexDual.hpp"
+	"ClpEventHandler.hpp"
+	"AbcSimplexFactorization.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinFloatEqual.hpp"
+	"AbcDualRowDantzig.hpp"
+	"ClpMessage.hpp"
+	"ClpLinearObjective.hpp"
+	<cfloat>
+	<cassert>
+	<string>
+	<stdio.h>
+	<iostream>
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\abcsimplexprimal.cpp
+	"CoinPragma.hpp"
+	<math.h>
+	"CoinHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"AbcSimplexPrimal.hpp"
+	"AbcSimplexFactorization.hpp"
+	"AbcNonLinearCost.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinIndexedVector.hpp"
+	"AbcPrimalColumnPivot.hpp"
+	"ClpMessage.hpp"
+	"ClpEventHandler.hpp"
+	<cfloat>
+	<cassert>
+	<string>
+	<stdio.h>
+	<iostream>
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\abcwarmstart.cpp
+	"CoinPragma.hpp"
+	"CoinUtilsConfig.h"
+	<cassert>
+	"AbcWarmStart.hpp"
+	"CoinHelperFunctions.hpp"
+	<cmath>
+	<iostream>
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\abcwarmstart.hpp
+	"AbcCommon.hpp"
+	"CoinWarmStartBasis.hpp"
+	"ClpSimplex.hpp"
+	"AbcSimplex.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\cbcorclpparam.cpp
+	"CoinPragma.hpp"
+	"CoinTime.hpp"
+	"CbcOrClpParam.hpp"
+	<string>
+	<iostream>
+	<cassert>
+	"OsiClpSolverInterface.hpp"
+	"ClpSimplex.hpp"
+	"CbcModel.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpSimplex.hpp"
+	"ClpFactorization.hpp"
+	<readline/readline.h>
+	<readline/history.h>
+	"ClpConfig.h"
+	"AbcCommon.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\cbcorclpparam.hpp
+	"CbcConfig.h"
+	"ClpConfig.h"
+	<vector>
+	<string>
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\osiclp\\osiclpsolverinterface.hpp
+	<string>
+	<cfloat>
+	<map>
+	"ClpSimplex.hpp"
+	"ClpLinearObjective.hpp"
+	"CoinPackedMatrix.hpp"
+	"OsiSolverInterface.hpp"
+	"CoinWarmStartBasis.hpp"
+	"ClpEventHandler.hpp"
+	"ClpNode.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinFinite.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\clpsimplex.hpp
+	<iostream>
+	<cfloat>
+	"ClpModel.hpp"
+	"ClpMatrixBase.hpp"
+	"ClpSolve.hpp"
+	"ClpConfig.h"
+	"AbcCommon.hpp"
+	"CoinAbcCommon.hpp"
+	<pthread.h>
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\clpmodel.hpp
+	"ClpConfig.h"
+	<iostream>
+	<cassert>
+	<cmath>
+	<vector>
+	<string>
+	"ClpPackedMatrix.hpp"
+	"CoinMessageHandler.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinTypes.hpp"
+	"CoinFinite.hpp"
+	"ClpParameters.hpp"
+	"ClpObjective.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\\clpconfig.h
+	"config.h"
+	"config_clp.h"
+	"config_default.h"
+	"config_clp_default.h"
+
+1434416088 c:\users\seth\documents\fortran-c-sol\clp\src\\config.h
+
+1434416088 c:\users\seth\documents\fortran-c-sol\clp\src\\config_clp.h
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\config_default.h
+	"configall_system.h"
+	"config_clp_default.h"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\config_clp_default.h
+
+1433631801 c:\users\seth\documents\fortran-c-sol\clp\src\\clppackedmatrix.hpp
+	"CoinPragma.hpp"
+	"ClpMatrixBase.hpp"
+	<pthread.h>
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\\clpmatrixbase.hpp
+	"CoinPragma.hpp"
+	"CoinTypes.hpp"
+	"CoinPackedMatrix.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\clpparameters.hpp
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\\clpobjective.hpp
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\clpsolve.hpp
+	"ClpConfig.h"
+	"AbcCommon.hpp"
+
+1433631801 c:\users\seth\documents\fortran-c-sol\clp\src\\abccommon.hpp
+	"ClpConfig.h"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\coinabccommon.hpp
+	"CoinPragma.hpp"
+	"CoinUtilsConfig.h"
+	<iostream>
+	<string>
+	<cassert>
+	<cstdio>
+	<cmath>
+	"AbcCommon.hpp"
+	"CoinHelperFunctions.hpp"
+	<cilk/cilk.h>
+	<endian.h>
+
+1433631801 c:\users\seth\documents\fortran-c-sol\clp\src\\clplinearobjective.hpp
+	"ClpObjective.hpp"
+
+1433632209 c:\users\seth\documents\fortran-c-sol\clp-osi\src\osi\osisolverinterface.hpp
+	<cstdlib>
+	<string>
+	<vector>
+	"CoinTypes.hpp"
+	"CoinMessageHandler.hpp"
+	"CoinPackedVectorBase.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinWarmStart.hpp"
+	"CoinFinite.hpp"
+	"CoinError.hpp"
+	"OsiCollections.hpp"
+	"OsiSolverParameters.hpp"
+
+1433632209 c:\users\seth\documents\fortran-c-sol\clp-osi\src\osi\osicollections.hpp
+	<vector>
+
+1433632209 c:\users\seth\documents\fortran-c-sol\clp-osi\src\osi\osisolverparameters.hpp
+
+1433631801 c:\users\seth\documents\fortran-c-sol\clp\src\\clpeventhandler.hpp
+	"ClpSimplex.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\clpnode.hpp
+	"CoinPragma.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clp_ampl.cpp
+	"ClpConfig.h"
+	"unistd.h"
+	"CoinUtilsConfig.h"
+	"CoinHelperFunctions.hpp"
+	"CoinModel.hpp"
+	"CoinSort.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinMpsIO.hpp"
+	"CoinFloatEqual.hpp"
+	"Clp_ampl.h"
+	"getstub.h"
+	"asl_pfgh.h"
+	<string>
+	<cassert>
+	"float.h"
+	"limits.h"
+	"Clp_ampl.h"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinmpsio.hpp
+	<vector>
+	<string>
+	"CoinUtilsConfig.h"
+	"CoinPackedMatrix.hpp"
+	"CoinMessageHandler.hpp"
+	"CoinFileIO.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinfileio.hpp
+	<string>
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clp_ampl.h
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpcholeskybase.cpp
+	"CoinPragma.hpp"
+	<iostream>
+	"ClpCholeskyBase.hpp"
+	"ClpInterior.hpp"
+	"ClpHelperFunctions.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinSort.hpp"
+	"ClpCholeskyDense.hpp"
+	"ClpMessage.hpp"
+	"ClpQuadraticObjective.hpp"
+	<math.h>
+	<stdlib.h>
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpcholeskybase.hpp
+	"CoinPragma.hpp"
+	"CoinTypes.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpinterior.hpp
+	<iostream>
+	<cfloat>
+	"ClpModel.hpp"
+	"ClpMatrixBase.hpp"
+	"ClpSolve.hpp"
+	"CoinDenseVector.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coindensevector.hpp
+	<cassert>
+	<cstdlib>
+	<cmath>
+	"CoinHelperFunctions.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clphelperfunctions.hpp
+	"ClpConfig.h"
+	<cmath>
+	<math.h>
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpcholeskydense.hpp
+	"ClpCholeskyBase.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpquadraticobjective.hpp
+	"ClpObjective.hpp"
+	"CoinPackedMatrix.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpcholeskydense.cpp
+	"CoinPragma.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpConfig.h"
+	"ClpHelperFunctions.hpp"
+	"ClpInterior.hpp"
+	"ClpCholeskyDense.hpp"
+	"ClpMessage.hpp"
+	"ClpQuadraticObjective.hpp"
+	"CoinAbcCommon.hpp"
+
+1434591297 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpcholeskymumps.cpp
+	"CoinPragma.hpp"
+	"ClpConfig.h"
+	"dmumps_c.h"
+	"mpi.h"
+	"ClpCholeskyMumps.hpp"
+	"ClpMessage.hpp"
+	"ClpInterior.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpHelperFunctions.hpp"
+
+1305035801 c:\users\seth\documents\fortran-c-sol\mumps\src\include\dmumps_c.h
+	"mumps_compat.h"
+	"mumps_c_types.h"
+
+1305035801 c:\users\seth\documents\fortran-c-sol\mumps\src\include\mumps_compat.h
+
+1305035801 c:\users\seth\documents\fortran-c-sol\mumps\src\include\mumps_c_types.h
+
+1305035799 c:\users\seth\documents\fortran-c-sol\mumps\src\libseq\mpi.h
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpcholeskymumps.hpp
+	"ClpCholeskyBase.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpcholeskytaucs.cpp
+	"CoinPragma.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpHelperFunctions.hpp"
+	"ClpInterior.hpp"
+	"ClpCholeskyTaucs.hpp"
+	"ClpMessage.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpcholeskytaucs.hpp
+	"taucs.h"
+	"ClpCholeskyBase.hpp"
+
+1434592011 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpcholeskyufl.cpp
+	"ClpConfig.h"
+	"suitesparse/amd.h"
+	"suitesparse/cholmod.h"
+	"CoinPragma.hpp"
+	"ClpCholeskyUfl.hpp"
+	"ClpMessage.hpp"
+	"ClpInterior.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpHelperFunctions.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpcholeskyufl.hpp
+	"ClpCholeskyBase.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpconstraint.cpp
+	"CoinPragma.hpp"
+	"ClpSimplex.hpp"
+	"ClpConstraint.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpconstraint.hpp
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpconstraintlinear.cpp
+	"CoinPragma.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinIndexedVector.hpp"
+	"ClpSimplex.hpp"
+	"ClpConstraintLinear.hpp"
+	"CoinSort.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpconstraintlinear.hpp
+	"ClpConstraint.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpconstraintquadratic.cpp
+	"CoinPragma.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinIndexedVector.hpp"
+	"ClpSimplex.hpp"
+	"ClpConstraintQuadratic.hpp"
+	"CoinSort.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpconstraintquadratic.hpp
+	"ClpConstraint.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpdualrowdantzig.cpp
+	"CoinPragma.hpp"
+	"ClpSimplex.hpp"
+	"ClpDualRowDantzig.hpp"
+	"ClpFactorization.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpdualrowdantzig.hpp
+	"ClpDualRowPivot.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpdualrowpivot.cpp
+	"CoinPragma.hpp"
+	"ClpSimplex.hpp"
+	"ClpDualRowPivot.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpdualrowsteepest.cpp
+	"CoinPragma.hpp"
+	"ClpSimplex.hpp"
+	"ClpDualRowSteepest.hpp"
+	"CoinIndexedVector.hpp"
+	"ClpFactorization.hpp"
+	"CoinHelperFunctions.hpp"
+	<cstdio>
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpdummymatrix.cpp
+	<cstdio>
+	"CoinPragma.hpp"
+	"ClpSimplex.hpp"
+	"ClpDummyMatrix.hpp"
+	"ClpFactorization.hpp"
+	"ClpMessage.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpdummymatrix.hpp
+	"CoinPragma.hpp"
+	"ClpMatrixBase.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpdynamicexamplematrix.cpp
+	<cstdio>
+	"CoinPragma.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpSimplex.hpp"
+	"ClpFactorization.hpp"
+	"ClpQuadraticObjective.hpp"
+	"ClpNonLinearCost.hpp"
+	"ClpDynamicExampleMatrix.hpp"
+	"ClpMessage.hpp"
+
+1433631801 c:\users\seth\documents\fortran-c-sol\clp\src\clpnonlinearcost.hpp
+	"CoinPragma.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpdynamicexamplematrix.hpp
+	"CoinPragma.hpp"
+	"ClpDynamicMatrix.hpp"
+
+1433631801 c:\users\seth\documents\fortran-c-sol\clp\src\clpdynamicmatrix.hpp
+	"CoinPragma.hpp"
+	"ClpPackedMatrix.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpdynamicmatrix.cpp
+	<cstdio>
+	"CoinPragma.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpSimplex.hpp"
+	"ClpFactorization.hpp"
+	"ClpQuadraticObjective.hpp"
+	"ClpNonLinearCost.hpp"
+	"ClpDynamicMatrix.hpp"
+	"ClpMessage.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpeventhandler.cpp
+	"CoinPragma.hpp"
+	"ClpEventHandler.hpp"
+	"ClpSimplex.hpp"
+
+1433631801 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpfactorization.cpp
+	"CoinPragma.hpp"
+	"ClpFactorization.hpp"
+	"ClpQuadraticObjective.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinIndexedVector.hpp"
+	"ClpSimplex.hpp"
+	"ClpSimplexDual.hpp"
+	"ClpMatrixBase.hpp"
+	"ClpNetworkBasis.hpp"
+	"ClpNetworkMatrix.hpp"
+	"CoinTime.hpp"
+	"CoinSimpFactorization.hpp"
+	"CoinSimpFactorization.hpp"
+	"CoinSimpFactorization.hpp"
+	"CoinOslFactorization.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpsimplexdual.hpp
+	"ClpSimplex.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpnetworkbasis.hpp
+	"CoinTypes.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpnetworkmatrix.hpp
+	"CoinPragma.hpp"
+	"ClpMatrixBase.hpp"
+
+1433632202 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinsimpfactorization.hpp
+	<iostream>
+	<string>
+	<cassert>
+	"CoinTypes.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinDenseFactorization.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinoslfactorization.hpp
+	<iostream>
+	<string>
+	<cassert>
+	"CoinTypes.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinDenseFactorization.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpgubdynamicmatrix.cpp
+	<cstdio>
+	"CoinPragma.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpSimplex.hpp"
+	"ClpFactorization.hpp"
+	"ClpQuadraticObjective.hpp"
+	"ClpNonLinearCost.hpp"
+	"ClpGubDynamicMatrix.hpp"
+	"ClpMessage.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpgubdynamicmatrix.hpp
+	"CoinPragma.hpp"
+	"ClpGubMatrix.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpgubmatrix.hpp
+	"CoinPragma.hpp"
+	"ClpPackedMatrix.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpgubmatrix.cpp
+	<cstdio>
+	"CoinPragma.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpSimplex.hpp"
+	"ClpFactorization.hpp"
+	"ClpQuadraticObjective.hpp"
+	"ClpNonLinearCost.hpp"
+	"ClpGubMatrix.hpp"
+	"ClpMessage.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clphelperfunctions.cpp
+	<cfloat>
+	<cstdlib>
+	<cmath>
+	"CoinHelperFunctions.hpp"
+	"CoinTypes.hpp"
+	"ClpModel.hpp"
+	"ClpMessage.hpp"
+	<malloc.h>
+	<stdio.h>
+	<stdlib.h>
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpinterior.cpp
+	"CoinPragma.hpp"
+	<math.h>
+	"CoinHelperFunctions.hpp"
+	"ClpInterior.hpp"
+	"ClpMatrixBase.hpp"
+	"ClpLsqr.hpp"
+	"ClpPdcoBase.hpp"
+	"CoinDenseVector.hpp"
+	"ClpMessage.hpp"
+	"ClpHelperFunctions.hpp"
+	"ClpCholeskyDense.hpp"
+	"ClpLinearObjective.hpp"
+	"ClpQuadraticObjective.hpp"
+	<cfloat>
+	<string>
+	<stdio.h>
+	<iostream>
+	"ClpPdco.hpp"
+	"ClpPredictorCorrector.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clplsqr.hpp
+	"CoinDenseVector.hpp"
+	"ClpInterior.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clppdcobase.hpp
+	"CoinPragma.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinDenseVector.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clppdco.hpp
+	"ClpInterior.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clppredictorcorrector.hpp
+	"ClpInterior.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clplinearobjective.cpp
+	"CoinPragma.hpp"
+	"CoinIndexedVector.hpp"
+	"ClpFactorization.hpp"
+	"ClpSimplex.hpp"
+	"ClpLinearObjective.hpp"
+	"CoinHelperFunctions.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clplsqr.cpp
+	"ClpLsqr.hpp"
+	"ClpPdco.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpmain.cpp
+	"CoinPragma.hpp"
+	"AbcCommon.hpp"
+	"ClpSimplex.hpp"
+	"AbcSimplex.hpp"
+	"/include/lapacke.h"
+	<malloc.h>
+	<exception>
+	<new>
+	<cilk/cilk.h>
+	<cilk/reducer_max.h>
+	<cstdlib>
+	<iostream>
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpmatrixbase.cpp
+	"CoinPragma.hpp"
+	<iostream>
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpMatrixBase.hpp"
+	"ClpSimplex.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpmessage.cpp
+	"CoinPragma.hpp"
+	"ClpMessage.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpmodel.cpp
+	<cstdlib>
+	<cmath>
+	<cassert>
+	<cfloat>
+	<string>
+	<cstdio>
+	<iostream>
+	"CoinPragma.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinTime.hpp"
+	"ClpModel.hpp"
+	"ClpEventHandler.hpp"
+	"ClpPackedMatrix.hpp"
+	"ClpPlusMinusOneMatrix.hpp"
+	"CoinPackedVector.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinMpsIO.hpp"
+	"CoinFileIO.hpp"
+	"CoinModel.hpp"
+	"ClpMessage.hpp"
+	"CoinMessage.hpp"
+	"ClpLinearObjective.hpp"
+	"ClpQuadraticObjective.hpp"
+	"CoinBuild.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpplusminusonematrix.hpp
+	"CoinPragma.hpp"
+	"ClpMatrixBase.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpackedvector.hpp
+	<map>
+	"CoinPragma.hpp"
+	"CoinPackedVectorBase.hpp"
+	"CoinSort.hpp"
+
+1433632202 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinbuild.hpp
+	"CoinPragma.hpp"
+	"CoinTypes.hpp"
+	"CoinFinite.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpnetworkbasis.cpp
+	"CoinPragma.hpp"
+	"ClpNetworkBasis.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpSimplex.hpp"
+	"ClpMatrixBase.hpp"
+	"CoinIndexedVector.hpp"
+
+1433631801 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpnetworkmatrix.cpp
+	<cstdio>
+	"CoinPragma.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinPackedVector.hpp"
+	"ClpSimplex.hpp"
+	"ClpFactorization.hpp"
+	"ClpNetworkMatrix.hpp"
+	"ClpPlusMinusOneMatrix.hpp"
+	"ClpMessage.hpp"
+	<iostream>
+	<cassert>
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpnode.cpp
+	"CoinPragma.hpp"
+	"ClpSimplex.hpp"
+	"ClpNode.hpp"
+	"ClpFactorization.hpp"
+	"ClpDualRowSteepest.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpnode.hpp
+	"CoinPragma.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpnonlinearcost.cpp
+	"CoinPragma.hpp"
+	<iostream>
+	<cassert>
+	"CoinIndexedVector.hpp"
+	"ClpSimplex.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpNonLinearCost.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpobjective.cpp
+	"CoinPragma.hpp"
+	"ClpSimplex.hpp"
+	"ClpObjective.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clppackedmatrix.cpp
+	<cstdio>
+	"CoinPragma.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpSimplex.hpp"
+	"ClpSimplexDual.hpp"
+	"ClpFactorization.hpp"
+	"ClpQuadraticObjective.hpp"
+	"ClpPackedMatrix.hpp"
+	"ClpMessage.hpp"
+	"mkl_spblas.h"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clppdco.cpp
+	"CoinPragma.hpp"
+	<math.h>
+	"CoinDenseVector.hpp"
+	"ClpPdco.hpp"
+	"ClpPdcoBase.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpHelperFunctions.hpp"
+	"ClpLsqr.hpp"
+	"CoinTime.hpp"
+	"ClpMessage.hpp"
+	<cfloat>
+	<cassert>
+	<string>
+	<stdio.h>
+	<iostream>
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clppdcobase.cpp
+	"CoinPragma.hpp"
+	<iostream>
+	"ClpPdcoBase.hpp"
+	"ClpPdco.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpplusminusonematrix.cpp
+	<cstdio>
+	"CoinPragma.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinPackedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"ClpSimplex.hpp"
+	"ClpFactorization.hpp"
+	"ClpPlusMinusOneMatrix.hpp"
+	"ClpMessage.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clppredictorcorrector.cpp
+	"CoinPragma.hpp"
+	<math.h>
+	"CoinHelperFunctions.hpp"
+	"ClpPredictorCorrector.hpp"
+	"ClpEventHandler.hpp"
+	"CoinPackedMatrix.hpp"
+	"ClpMessage.hpp"
+	"ClpCholeskyBase.hpp"
+	"ClpHelperFunctions.hpp"
+	"ClpQuadraticObjective.hpp"
+	<cfloat>
+	<cassert>
+	<string>
+	<cstdio>
+	<iostream>
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clppresolve.cpp
+	<stdio.h>
+	<cassert>
+	<iostream>
+	"CoinHelperFunctions.hpp"
+	"ClpConfig.h"
+	"CoinAbcCommon.hpp"
+	"CoinPackedMatrix.hpp"
+	"ClpPackedMatrix.hpp"
+	"ClpSimplex.hpp"
+	"ClpSimplexOther.hpp"
+	"ClpQuadraticObjective.hpp"
+	"ClpPresolve.hpp"
+	"CoinPresolveMatrix.hpp"
+	"CoinPresolveEmpty.hpp"
+	"CoinPresolveFixed.hpp"
+	"CoinPresolvePsdebug.hpp"
+	"CoinPresolveSingleton.hpp"
+	"CoinPresolveDoubleton.hpp"
+	"CoinPresolveTripleton.hpp"
+	"CoinPresolveZeros.hpp"
+	"CoinPresolveSubst.hpp"
+	"CoinPresolveForcing.hpp"
+	"CoinPresolveDual.hpp"
+	"CoinPresolveTighten.hpp"
+	"CoinPresolveUseless.hpp"
+	"CoinPresolveDupcol.hpp"
+	"CoinPresolveImpliedFree.hpp"
+	"CoinPresolveIsolated.hpp"
+	"CoinMessage.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpsimplexother.hpp
+	"ClpSimplex.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clppresolve.hpp
+	"ClpSimplex.hpp"
+	"CoinPresolveMatrix.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolvematrix.hpp
+	"CoinPragma.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinMessage.hpp"
+	"CoinTime.hpp"
+	<cmath>
+	<cassert>
+	<cfloat>
+	<cassert>
+	<cstdlib>
+	"CoinFinite.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolveempty.hpp
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolvefixed.hpp
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolvepsdebug.hpp
+
+1433632202 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolvesingleton.hpp
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolvedoubleton.hpp
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolvetripleton.hpp
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolvezeros.hpp
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolvesubst.hpp
+	"CoinPresolveMatrix.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolveforcing.hpp
+	"CoinPresolveMatrix.hpp"
+
+1433632202 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolvedual.hpp
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolvetighten.hpp
+	"CoinPresolveMatrix.hpp"
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolveuseless.hpp
+
+1433632202 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolvedupcol.hpp
+	"CoinPresolveMatrix.hpp"
+
+1433632202 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolveimpliedfree.hpp
+
+1433632201 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinpresolveisolated.hpp
+	"CoinPresolveMatrix.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpprimalcolumndantzig.cpp
+	"CoinPragma.hpp"
+	<cstdio>
+	"CoinIndexedVector.hpp"
+	"ClpSimplex.hpp"
+	"ClpPrimalColumnDantzig.hpp"
+	"ClpFactorization.hpp"
+	"ClpPackedMatrix.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpprimalcolumndantzig.hpp
+	"ClpPrimalColumnPivot.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpprimalcolumnpivot.cpp
+	"CoinPragma.hpp"
+	"ClpSimplex.hpp"
+	"ClpPrimalColumnPivot.hpp"
+
+1433631801 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpprimalcolumnsteepest.cpp
+	"CoinPragma.hpp"
+	"ClpSimplex.hpp"
+	"ClpPrimalColumnSteepest.hpp"
+	"CoinIndexedVector.hpp"
+	"ClpFactorization.hpp"
+	"ClpNonLinearCost.hpp"
+	"ClpMessage.hpp"
+	"CoinHelperFunctions.hpp"
+	<stdio.h>
+
+1433631801 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpquadraticobjective.cpp
+	"CoinPragma.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinIndexedVector.hpp"
+	"ClpFactorization.hpp"
+	"ClpSimplex.hpp"
+	"ClpQuadraticObjective.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpsimplex.cpp
+	"ClpConfig.h"
+	"CoinPragma.hpp"
+	<math.h>
+	"CoinHelperFunctions.hpp"
+	"CoinFloatEqual.hpp"
+	"ClpSimplex.hpp"
+	"ClpFactorization.hpp"
+	"ClpPackedMatrix.hpp"
+	"CoinIndexedVector.hpp"
+	"ClpDualRowDantzig.hpp"
+	"ClpDualRowSteepest.hpp"
+	"ClpPrimalColumnDantzig.hpp"
+	"ClpPrimalColumnSteepest.hpp"
+	"ClpNonLinearCost.hpp"
+	"ClpMessage.hpp"
+	"ClpEventHandler.hpp"
+	"ClpLinearObjective.hpp"
+	"ClpHelperFunctions.hpp"
+	"CoinModel.hpp"
+	"CoinLpIO.hpp"
+	<cfloat>
+	"CoinAbcCommon.hpp"
+	<string>
+	<stdio.h>
+	<iostream>
+	"ClpSimplexDual.hpp"
+	"ClpSimplexPrimal.hpp"
+	"ClpQuadraticObjective.hpp"
+	"ClpSimplexOther.hpp"
+	"ClpSimplexNonlinear.hpp"
+	"ClpPredictorCorrector.hpp"
+	"ClpCholeskyBase.hpp"
+	"ClpCholeskyWssmp.hpp"
+	"ClpCholeskyWssmpKKT.hpp"
+	"ClpCholeskyUfl.hpp"
+	"ClpCholeskyMumps.hpp"
+	"ClpCholeskyTaucs.hpp"
+	"ClpPresolve.hpp"
+	"CoinWarmStartBasis.hpp"
+	"ClpNode.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpsimplexprimal.hpp
+	"ClpSimplex.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpsimplexnonlinear.hpp
+	"ClpSimplexPrimal.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\clpcholeskywssmp.hpp
+	"ClpCholeskyBase.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\clpcholeskywssmpkkt.hpp
+	"ClpCholeskyBase.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpsimplexdual.cpp
+	"CoinPragma.hpp"
+	<math.h>
+	"CoinHelperFunctions.hpp"
+	"ClpHelperFunctions.hpp"
+	"ClpSimplexDual.hpp"
+	"ClpEventHandler.hpp"
+	"ClpFactorization.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinFloatEqual.hpp"
+	"ClpDualRowDantzig.hpp"
+	"ClpMessage.hpp"
+	"ClpLinearObjective.hpp"
+	<cfloat>
+	<cassert>
+	<string>
+	<stdio.h>
+	<iostream>
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpsimplexnonlinear.cpp
+	"CoinPragma.hpp"
+	<math.h>
+	"CoinHelperFunctions.hpp"
+	"ClpHelperFunctions.hpp"
+	"ClpSimplexNonlinear.hpp"
+	"ClpSimplexOther.hpp"
+	"ClpSimplexDual.hpp"
+	"ClpFactorization.hpp"
+	"ClpNonLinearCost.hpp"
+	"ClpLinearObjective.hpp"
+	"ClpConstraint.hpp"
+	"ClpPresolve.hpp"
+	"ClpQuadraticObjective.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinIndexedVector.hpp"
+	"ClpPrimalColumnPivot.hpp"
+	"ClpMessage.hpp"
+	"ClpEventHandler.hpp"
+	<cfloat>
+	<cassert>
+	<string>
+	<stdio.h>
+	<iostream>
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpsimplexother.cpp
+	"CoinPragma.hpp"
+	<math.h>
+	"CoinHelperFunctions.hpp"
+	"ClpSimplexOther.hpp"
+	"ClpSimplexDual.hpp"
+	"ClpSimplexPrimal.hpp"
+	"ClpEventHandler.hpp"
+	"ClpHelperFunctions.hpp"
+	"ClpFactorization.hpp"
+	"ClpDualRowDantzig.hpp"
+	"ClpNonLinearCost.hpp"
+	"ClpDynamicMatrix.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinBuild.hpp"
+	"CoinMpsIO.hpp"
+	"CoinFloatEqual.hpp"
+	"ClpMessage.hpp"
+	<cfloat>
+	<cassert>
+	<string>
+	<stdio.h>
+	<iostream>
+	"CoinPresolveMatrix.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpsimplexprimal.cpp
+	"CoinPragma.hpp"
+	<math.h>
+	"CoinHelperFunctions.hpp"
+	"ClpSimplexPrimal.hpp"
+	"ClpFactorization.hpp"
+	"ClpNonLinearCost.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinIndexedVector.hpp"
+	"ClpPrimalColumnPivot.hpp"
+	"ClpMessage.hpp"
+	"ClpEventHandler.hpp"
+	<cfloat>
+	<cassert>
+	<string>
+	<stdio.h>
+	<iostream>
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpsolve.cpp
+	"CoinPragma.hpp"
+	"ClpConfig.h"
+	<math.h>
+	<windows.h>
+	<unistd.h>
+	"CoinHelperFunctions.hpp"
+	"ClpHelperFunctions.hpp"
+	"CoinSort.hpp"
+	"ClpFactorization.hpp"
+	"ClpSimplex.hpp"
+	"ClpSimplexOther.hpp"
+	"ClpSimplexDual.hpp"
+	"ClpQuadraticObjective.hpp"
+	"ClpInterior.hpp"
+	"ClpCholeskyDense.hpp"
+	"ClpCholeskyBase.hpp"
+	"ClpPlusMinusOneMatrix.hpp"
+	"ClpNetworkMatrix.hpp"
+	"ClpEventHandler.hpp"
+	"ClpLinearObjective.hpp"
+	"ClpSolve.hpp"
+	"ClpPackedMatrix.hpp"
+	"ClpMessage.hpp"
+	"CoinTime.hpp"
+	"CoinAbcCommon.hpp"
+	"AbcSimplex.hpp"
+	"AbcSimplexFactorization.hpp"
+	"CoinStructuredModel.hpp"
+	"ClpPresolve.hpp"
+	"Idiot.hpp"
+	"ClpCholeskyWssmp.hpp"
+	"ClpCholeskyWssmpKKT.hpp"
+	"ClpCholeskyUfl.hpp"
+	"ClpCholeskyTaucs.hpp"
+	"ClpCholeskyMumps.hpp"
+	"VolVolume.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinMpsIO.hpp"
+	"CoinSignal.hpp"
+	<cilk/cilk_api.h>
+	<string>
+	"ClpNonLinearCost.hpp"
+	"CoinStructuredModel.hpp"
+
+1433632202 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinstructuredmodel.hpp
+	"CoinModel.hpp"
+	<vector>
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\idiot.hpp
+	"ClpSimplex.hpp"
+	"OsiSolverInterface.hpp"
+
+1433632202 c:\users\seth\documents\fortran-c-sol\clp-coinutils\src\coinsignal.hpp
+	<csignal>
+	<signal.h>
+
+1434595651 source:c:\users\seth\documents\fortran-c-sol\clp\src\clpsolver.cpp
+	"CoinPragma.hpp"
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<cfloat>
+	<string>
+	<iostream>
+	"CoinPragma.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinSort.hpp"
+	"ClpConfig.h"
+	"CoinMpsIO.hpp"
+	"CoinFileIO.hpp"
+	"glpk.h"
+	"AbcCommon.hpp"
+	"ClpFactorization.hpp"
+	"CoinTime.hpp"
+	"CoinWarmStartBasis.hpp"
+	"ClpSimplex.hpp"
+	"ClpSimplexOther.hpp"
+	"ClpSolve.hpp"
+	"ClpMessage.hpp"
+	"ClpPackedMatrix.hpp"
+	"ClpPlusMinusOneMatrix.hpp"
+	"ClpNetworkMatrix.hpp"
+	"ClpDualRowSteepest.hpp"
+	"ClpDualRowDantzig.hpp"
+	"ClpLinearObjective.hpp"
+	"ClpPrimalColumnSteepest.hpp"
+	"ClpPrimalColumnDantzig.hpp"
+	"ClpPresolve.hpp"
+	"CbcOrClpParam.hpp"
+	"CoinSignal.hpp"
+	"AbcSimplex.hpp"
+	"AbcSimplexFactorization.hpp"
+	"AbcDualRowSteepest.hpp"
+	"AbcDualRowDantzig.hpp"
+	"Clp_ampl.h"
+	"dmalloc.h"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcbasefactorization1.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinFinite.hpp"
+	"AbcSimplex.hpp"
+	"ClpMessage.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcbasefactorization2.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinFinite.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcbasefactorization3.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcbasefactorization4.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"AbcSimplex.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcbasefactorization5.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"AbcSimplex.hpp"
+	"AbcMatrix.hpp"
+
+1433631801 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcdensefactorization.cpp
+	"CoinUtilsConfig.h"
+	"CoinPragma.hpp"
+	<cassert>
+	<cstdio>
+	"CoinAbcDenseFactorization.hpp"
+	"CoinAbcCommonFactorization.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinFinite.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcfactorization1.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization1.cpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\coinabcbasefactorization1.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinFinite.hpp"
+	"AbcSimplex.hpp"
+	"ClpMessage.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcfactorization2.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization2.cpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\coinabcbasefactorization2.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinFinite.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcfactorization3.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization3.cpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\coinabcbasefactorization3.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcfactorization4.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization4.cpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\coinabcbasefactorization4.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"AbcSimplex.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcfactorization5.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization5.cpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\coinabcbasefactorization5.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"AbcSimplex.hpp"
+	"AbcMatrix.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabchelperfunctions.cpp
+	<cfloat>
+	<cstdlib>
+	<cmath>
+	"CoinHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"CoinTypes.hpp"
+	"CoinFinite.hpp"
+	"CoinAbcCommon.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"CoinAbcHelperFunctions.hpp"
+	"CoinPragma.hpp"
+	<math.h>
+	<cfloat>
+	<cassert>
+	<string>
+	<stdio.h>
+	<iostream>
+	"CoinAbcCommonFactorization.hpp"
+	"emmintrin.h"
+	<immintrin.h>
+	"avx2intrin.h"
+	<immintrin.h>
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcorderedfactorization1.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization1.cpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcorderedfactorization2.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization2.cpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcorderedfactorization3.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization3.cpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcorderedfactorization4.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization4.cpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcorderedfactorization5.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization5.cpp"
+
+1433631801 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcsmallfactorization1.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization1.cpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcsmallfactorization2.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization2.cpp"
+
+1433631801 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcsmallfactorization3.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization3.cpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcsmallfactorization4.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization4.cpp"
+
+1433631801 source:c:\users\seth\documents\fortran-c-sol\clp\src\coinabcsmallfactorization5.cpp
+	"CoinAbcCommonFactorization.hpp"
+	"CoinAbcBaseFactorization.hpp"
+	"CoinAbcBaseFactorization5.cpp"
+
+1433631801 source:c:\users\seth\documents\fortran-c-sol\clp\src\idiot.cpp
+	"CoinPragma.hpp"
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<math.h>
+	"ClpPresolve.hpp"
+	"Idiot.hpp"
+	"CoinTime.hpp"
+	"CoinSort.hpp"
+	"CoinFactorization.hpp"
+	"CoinMessageHandler.hpp"
+	"CoinHelperFunctions.hpp"
+	"AbcCommon.hpp"
+	"ClpMessage.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\idisolve.cpp
+	"CoinPragma.hpp"
+	<stdio.h>
+	<stdarg.h>
+	<stdlib.h>
+	<math.h>
+	"CoinHelperFunctions.hpp"
+	"Idiot.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\myeventhandler.cpp
+	"MyEventHandler.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\myeventhandler.hpp
+	"ClpEventHandler.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\mymessagehandler.cpp
+	<cstdio>
+	"CoinPragma.hpp"
+	"ClpSimplex.hpp"
+	"ClpNonLinearCost.hpp"
+	"MyMessageHandler.hpp"
+	"ClpMessage.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\mymessagehandler.hpp
+	<deque>
+	"CoinPragma.hpp"
+	<stdio.h>
+	"CoinMessageHandler.hpp"
+
+1433631803 source:c:\users\seth\documents\fortran-c-sol\clp\src\osiclp\osiclpsolverinterface.cpp
+	<cassert>
+	"CoinTime.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinModel.hpp"
+	"CoinMpsIO.hpp"
+	"CoinSort.hpp"
+	"ClpDualRowSteepest.hpp"
+	"ClpPrimalColumnSteepest.hpp"
+	"ClpPackedMatrix.hpp"
+	"ClpDualRowDantzig.hpp"
+	"ClpPrimalColumnDantzig.hpp"
+	"ClpFactorization.hpp"
+	"ClpObjective.hpp"
+	"ClpSimplex.hpp"
+	"ClpSimplexOther.hpp"
+	"ClpSimplexPrimal.hpp"
+	"ClpSimplexDual.hpp"
+	"ClpNonLinearCost.hpp"
+	"OsiClpSolverInterface.hpp"
+	"OsiBranchingObject.hpp"
+	"OsiCuts.hpp"
+	"OsiRowCut.hpp"
+	"OsiColCut.hpp"
+	"ClpPresolve.hpp"
+	"CoinLpIO.hpp"
+	"ClpSimplexOther.hpp"
+	<vector>
+	<map>
+	<vector>
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\clpdualrowsteepest.hpp
+	"ClpDualRowPivot.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\\clpdualrowpivot.hpp
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\clpprimalcolumnsteepest.hpp
+	"ClpPrimalColumnPivot.hpp"
+	<bitset>
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\\clpprimalcolumnpivot.hpp
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\clpdualrowdantzig.hpp
+	"ClpDualRowPivot.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\clpprimalcolumndantzig.hpp
+	"ClpPrimalColumnPivot.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\clpfactorization.hpp
+	"CoinPragma.hpp"
+	"CoinFactorization.hpp"
+	"CoinDenseFactorization.hpp"
+	"ClpSimplex.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\\clpsimplexother.hpp
+	"ClpSimplex.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\\clpsimplexprimal.hpp
+	"ClpSimplex.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\clpsimplexdual.hpp
+	"ClpSimplex.hpp"
+
+1433631801 c:\users\seth\documents\fortran-c-sol\clp\src\\clpnonlinearcost.hpp
+	"CoinPragma.hpp"
+
+1433631803 c:\users\seth\documents\fortran-c-sol\clp\src\osiclp\osiclpsolverinterface.hpp
+	<string>
+	<cfloat>
+	<map>
+	"ClpSimplex.hpp"
+	"ClpLinearObjective.hpp"
+	"CoinPackedMatrix.hpp"
+	"OsiSolverInterface.hpp"
+	"CoinWarmStartBasis.hpp"
+	"ClpEventHandler.hpp"
+	"ClpNode.hpp"
+	"CoinIndexedVector.hpp"
+	"CoinFinite.hpp"
+
+1433632209 c:\users\seth\documents\fortran-c-sol\clp-osi\src\osi\osibranchingobject.hpp
+	<cassert>
+	<string>
+	<vector>
+	"CoinError.hpp"
+	"CoinTypes.hpp"
+
+1433632209 c:\users\seth\documents\fortran-c-sol\clp-osi\src\osi\osicuts.hpp
+	"CoinPragma.hpp"
+	<cmath>
+	<cfloat>
+	"OsiCollections.hpp"
+	"OsiRowCut.hpp"
+	"OsiColCut.hpp"
+	"CoinFloatEqual.hpp"
+
+1433632209 c:\users\seth\documents\fortran-c-sol\clp-osi\src\osi\osirowcut.hpp
+	"CoinPackedVector.hpp"
+	"OsiCollections.hpp"
+	"OsiCut.hpp"
+
+1433632209 c:\users\seth\documents\fortran-c-sol\clp-osi\src\osi\osicut.hpp
+	"OsiCollections.hpp"
+	"OsiSolverInterface.hpp"
+
+1433632209 c:\users\seth\documents\fortran-c-sol\clp-osi\src\osi\osicolcut.hpp
+	<string>
+	"CoinPackedVector.hpp"
+	"OsiCollections.hpp"
+	"OsiCut.hpp"
+
+1433631802 c:\users\seth\documents\fortran-c-sol\clp\src\\clppresolve.hpp
+	"ClpSimplex.hpp"
+	"CoinPresolveMatrix.hpp"
+
+1433631802 source:c:\users\seth\documents\fortran-c-sol\clp\src\unittest.cpp
+	"ClpConfig.h"
+	"CoinPragma.hpp"
+	<cassert>
+	<cstdio>
+	<cstdlib>
+	<cmath>
+	<cfloat>
+	<string>
+	<iostream>
+	"CoinMpsIO.hpp"
+	"CoinPackedMatrix.hpp"
+	"CoinPackedVector.hpp"
+	"CoinStructuredModel.hpp"
+	"CoinHelperFunctions.hpp"
+	"CoinTime.hpp"
+	"CoinFloatEqual.hpp"
+	"CoinAbcCommon.hpp"
+	"CoinAbcFactorization.hpp"
+	"ClpFactorization.hpp"
+	"ClpSimplex.hpp"
+	"ClpSimplexOther.hpp"
+	"ClpSimplexNonlinear.hpp"
+	"ClpInterior.hpp"
+	"ClpLinearObjective.hpp"
+	"ClpDualRowSteepest.hpp"
+	"ClpDualRowDantzig.hpp"
+	"ClpPrimalColumnSteepest.hpp"
+	"ClpPrimalColumnDantzig.hpp"
+	"ClpParameters.hpp"
+	"ClpNetworkMatrix.hpp"
+	"ClpPlusMinusOneMatrix.hpp"
+	"MyMessageHandler.hpp"
+	"MyEventHandler.hpp"
+	"ClpPresolve.hpp"
+	"Idiot.hpp"
+	"AbcSimplex.hpp"
+

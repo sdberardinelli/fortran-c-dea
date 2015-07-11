@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Fortran-DEA" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_fortran_compiler_mingw" />
+		<Build>
+			<Target title="Debug">
+				<Option output="build/Fortran-DEA" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="working_dir" />
+				<Option object_output="build/ob/" />
+				<Option type="1" />
+				<Option compiler="gnu_fortran_compiler_cygwin" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add option="-lgfortran" />
+					<Add option="-lglpk" />
+					<Add option="-llp_solve" />
+					<Add directory="../glpk/build" />
+					<Add directory="../lp_solve/build" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../Fortran-glpk/src/glpk.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="../Fortran-glpk/src/glpk_constants.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="../Fortran-glpk/src/glpk_types.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="../Fortran-lp_solve/src/lp_solve.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="../Fortran-lp_solve/src/lp_solve_constants.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="../Fortran-lp_solve/src/lp_solve_types.f90">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/GLPK.f90">
+			<Option weight="2" />
+		</Unit>
+		<Unit filename="src/LPSOLVE.f90">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="src/main.f90">
+			<Option weight="0" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

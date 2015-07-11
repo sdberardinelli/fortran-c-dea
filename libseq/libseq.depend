@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1434437416 source:c:\users\seth\documents\working_dir\libseq\src\mpi.f
+
+1305035799 source:c:\users\seth\documents\working_dir\libseq\src\elapse.c
+	"elapse.h"
+	<time.h>
+	<sys/timeb.h>
+	"elapse.h"
+	<sys/time.h>
+
+1305035799 c:\users\seth\documents\working_dir\libseq\src\elapse.h
+
+1305035799 source:c:\users\seth\documents\working_dir\libseq\src\mpic.c
+	<mpi.h>
+
+1305035799 c:\users\seth\documents\working_dir\libseq\src\\mpi.h
+

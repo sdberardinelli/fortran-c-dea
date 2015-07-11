@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="mumps" />
+		<Option pch_mode="2" />
+		<Option compiler="null" />
+		<Build>
+			<Target title="Debug">
+				<Option output="build/mumps" prefix_auto="1" extension_auto="1" />
+				<Option object_output="build/ob/" />
+				<Option type="3" />
+				<Option compiler="gnu_gcc_compiler_cygwin" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-pipe" />
+					<Add option="-DNDEBUG" />
+					<Add option="-DMUMPS_BUILD" />
+					<Add option="-DAdd_" />
+					<Add option="-DWITHOUT_PTHREAD=1" />
+					<Add option="-DALLOW_NON_INIT" />
+					<Add option="-DMUMPS_ARITH=MUMPS_ARITH_d" />
+					<Add directory="src/" />
+					<Add directory="src/include/" />
+					<Add directory="src/libseq/" />
+					<Add directory="../blas" />
+				</Compiler>
+				<Linker>
+					<Add option="-lgfortran" />
+					<Add option="-lquadmath" />
+					<Add option="-lm" />
+					<Add option="-ladvapi32" />
+					<Add option="-lblas1" />
+					<Add library="user32" />
+					<Add library="kernel32" />
+					<Add directory="../blas/build" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="src/cmumps_comm_buffer.F">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/cmumps_load.F">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="src/cmumps_ooc.F">
+			<Option weight="2" />
+		</Unit>
+		<Unit filename="src/cmumps_ooc_buffer.F">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="src/cmumps_part1.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/cmumps_part2.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/cmumps_part3.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/cmumps_part4.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/cmumps_part5.F">
+			<Option weight="4" />
+		</Unit>
+		<Unit filename="src/cmumps_part6.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/cmumps_part7.F">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="src/cmumps_part8.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/cmumps_struc_def.F">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dmumps_comm_buffer.F">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dmumps_load.F">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="src/dmumps_ooc.F">
+			<Option weight="2" />
+		</Unit>
+		<Unit filename="src/dmumps_ooc_buffer.F">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="src/dmumps_part1.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/dmumps_part2.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/dmumps_part3.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/dmumps_part4.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/dmumps_part5.F">
+			<Option weight="4" />
+		</Unit>
+		<Unit filename="src/dmumps_part6.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/dmumps_part7.F">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="src/dmumps_part8.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/dmumps_struc_def.F">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/include/cmumps_c.h" />
+		<Unit filename="src/include/cmumps_root.h" />
+		<Unit filename="src/include/cmumps_struc.h" />
+		<Unit filename="src/include/dmumps_c.h" />
+		<Unit filename="src/include/dmumps_root.h" />
+		<Unit filename="src/include/dmumps_struc.h" />
+		<Unit filename="src/include/mumps_c_types.h" />
+		<Unit filename="src/include/mumps_compat.h" />
+		<Unit filename="src/include/smumps_c.h" />
+		<Unit filename="src/include/smumps_root.h" />
+		<Unit filename="src/include/smumps_struc.h" />
+		<Unit filename="src/include/zmumps_c.h" />
+		<Unit filename="src/include/zmumps_root.h" />
+		<Unit filename="src/include/zmumps_struc.h" />
+		<Unit filename="src/libseq/elapse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/libseq/elapse.h" />
+		<Unit filename="src/libseq/mpi.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/libseq/mpi.h" />
+		<Unit filename="src/libseq/mpic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/libseq/mpif.h" />
+		<Unit filename="src/mumps_c.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mumps_common.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mumps_common.h" />
+		<Unit filename="src/mumps_headers.h" />
+		<Unit filename="src/mumps_io.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mumps_io.h" />
+		<Unit filename="src/mumps_io_basic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mumps_io_basic.h" />
+		<Unit filename="src/mumps_io_err.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mumps_io_err.h" />
+		<Unit filename="src/mumps_io_thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mumps_io_thread.h" />
+		<Unit filename="src/mumps_ooc_common.F">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/mumps_orderings.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mumps_orderings.h" />
+		<Unit filename="src/mumps_part9.F">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/mumps_size.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mumps_size.h" />
+		<Unit filename="src/mumps_sol_es.F">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/mumps_static_mapping.F">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/mumps_tags.h" />
+		<Unit filename="src/smumps_comm_buffer.F">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/smumps_load.F">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="src/smumps_ooc.F">
+			<Option weight="2" />
+		</Unit>
+		<Unit filename="src/smumps_ooc_buffer.F">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="src/smumps_part1.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/smumps_part2.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/smumps_part3.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/smumps_part4.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/smumps_part5.F">
+			<Option weight="4" />
+		</Unit>
+		<Unit filename="src/smumps_part6.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/smumps_part7.F">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="src/smumps_part8.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/smumps_struc_def.F">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/tools_common_mod.F">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/zmumps_comm_buffer.F">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/zmumps_load.F">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="src/zmumps_ooc.F">
+			<Option weight="2" />
+		</Unit>
+		<Unit filename="src/zmumps_ooc_buffer.F">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="src/zmumps_part1.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/zmumps_part2.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/zmumps_part3.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/zmumps_part4.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/zmumps_part5.F">
+			<Option weight="4" />
+		</Unit>
+		<Unit filename="src/zmumps_part6.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/zmumps_part7.F">
+			<Option weight="1" />
+		</Unit>
+		<Unit filename="src/zmumps_part8.F">
+			<Option weight="3" />
+		</Unit>
+		<Unit filename="src/zmumps_struc_def.F">
+			<Option weight="0" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

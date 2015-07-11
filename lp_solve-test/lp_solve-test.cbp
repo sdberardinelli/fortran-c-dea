@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lp_solve-test" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="build/lp_solve-test" prefix_auto="1" extension_auto="1" />
+				<Option object_output="build/ob/" />
+				<Option type="1" />
+				<Option compiler="gnu_gcc_compiler_mingw" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../lp_solve/src" />
+				</Compiler>
+				<Linker>
+					<Add option="-llp_solve" />
+					<Add directory="../lp_solve/build" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="src\fortify.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="33119" topLine="1262" />
+		</Cursor>
+	</File>
+	<File name="src\lp_crash.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="832" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\lp_LUSOL.c" open="0" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1123" topLine="3" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\mmio.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="327" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\lusolio.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="414" topLine="265" />
+		</Cursor>
+	</File>
+	<File name="src\lp_solveDLL.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="101" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\sparselib.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="18984" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\lp_pricePSE.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="682" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\lusol6u.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3488" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\hbio.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10626" topLine="257" />
+		</Cursor>
+	</File>
+	<File name="src\lp_lib.h" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="92991" topLine="1759" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\lusol.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="22682" topLine="708" />
+		</Cursor>
+		<Folding>
+			<Collapse line="62" />
+		</Folding>
+	</File>
+	<File name="src\lp_pricePSE.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1805" topLine="34" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\lp_LUSOL.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2392" topLine="15" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\lusol8a.c" open="0" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4258" topLine="91" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\lusol2.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4675" topLine="126" />
+		</Cursor>
+	</File>
+	<File name="src\lp_presolve.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="13776" topLine="355" />
+		</Cursor>
+		<Folding>
+			<Collapse line="364" />
+			<Collapse line="389" />
+			<Collapse line="399" />
+			<Collapse line="411" />
+			<Collapse line="425" />
+		</Folding>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\lusol.h" open="0" top="0" tabpos="7" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1650" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="src\lp_MPS.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14752" topLine="547" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\lusol7a.c" open="0" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="14333" topLine="429" />
+		</Cursor>
+	</File>
+	<File name="src\lp_explicit.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9172" topLine="147" />
+		</Cursor>
+	</File>
+	<File name="src\lp_price.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="52321" topLine="1525" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\lusol6l0.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="331" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\lp_presolve.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4860" topLine="91" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\lusol6a.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="21181" topLine="633" />
+		</Cursor>
+	</File>
+	<File name="src\lp_utils.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1060" topLine="105" />
+		</Cursor>
+	</File>
+	<File name="src\lp_price.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1922" topLine="19" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\myblas.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="2993" topLine="52" />
+		</Cursor>
+	</File>
+	<File name="src\lp_rlp.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3284" topLine="127" />
+		</Cursor>
+	</File>
+	<File name="src\lp_lib.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="12558" topLine="429" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\lusol1.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="57330" topLine="1702" />
+		</Cursor>
+	</File>
+	<File name="src\lp_report.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="10403" topLine="337" />
+		</Cursor>
+	</File>
+	<File name="src\lp_matrix.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="44809" topLine="1614" />
+		</Cursor>
+		<Folding>
+			<Collapse line="1676" />
+		</Folding>
+	</File>
+	<File name="src\bfp\lp_BFP.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="556" topLine="18" />
+		</Cursor>
+	</File>
+	<File name="src\lp_matrix.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="9582" topLine="196" />
+		</Cursor>
+	</File>
+	<File name="src\shared\commonlib.h" open="0" top="0" tabpos="6" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="4091" topLine="143" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\lp_BFP1.c" open="0" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="44" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\lp_bit.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="645" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\lp_BFP2.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="792" topLine="146" />
+		</Cursor>
+	</File>
+	<File name="src\lp_types.h" open="0" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="530" topLine="4" />
+		</Cursor>
+	</File>
+	<File name="src\lp_rlp.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="3810" topLine="70" />
+		</Cursor>
+		<Folding>
+			<Collapse line="83" />
+		</Folding>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\bfp_LUSOL.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="67" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\lp_utils.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="1466" topLine="41" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\bfp_LUSOL.h" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="231" topLine="0" />
+		</Cursor>
+	</File>
+	<File name="src\bfp\bfp_LUSOL\LUSOL\lusolmain.c" open="0" top="0" tabpos="0" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="15210" topLine="442" />
+		</Cursor>
+	</File>
+</CodeBlocks_layout_file>

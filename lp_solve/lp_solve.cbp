@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lp_solve" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="build/lp_solve" prefix_auto="1" extension_auto="1" />
+				<Option object_output="build/ob" />
+				<Option type="3" />
+				<Option compiler="gnu_gcc_compiler_cygwin" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-pipe" />
+					<Add option="-DBUILD_DLL" />
+					<Add option="-DCHECK_SOLUTION" />
+					<Add option="-DYY_NEVER_INTERACTIVE" />
+					<Add option="-DPARSER_LP" />
+					<Add option="-DINVERSE_ACTIVE=INVERSE_LUSOL" />
+					<Add option="-DRoleIsExternalInvEngine" />
+					<Add directory="src/" />
+					<Add directory="src/bfp/" />
+					<Add directory="src/bfp/bfp_LUSOL/" />
+					<Add directory="src/bfp/bfp_LUSOL/LUSOL/" />
+					<Add directory="src/colamd/" />
+					<Add directory="src/shared/" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lm" />
+					<Add library="user32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/hbio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/hbio.h" />
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/lusol.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/lusol.h" />
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/lusol1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/lusol2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/lusol6a.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/lusol6l0.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/lusol6u.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/lusol7a.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/lusol8a.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/lusolio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/lusolio.h" />
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/lusolmain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/lusolmain.h" />
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/mmio.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/mmio.h" />
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/myblas.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/myblas.h" />
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/sparselib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/LUSOL/sparselib.h" />
+		<Unit filename="src/bfp/bfp_LUSOL/bfp_LUSOL.c">
+			<Option compilerVar="CC" />
+			<Option compile="0" />
+			<Option link="0" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/bfp_LUSOL.h" />
+		<Unit filename="src/bfp/bfp_LUSOL/lp_LUSOL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfp/bfp_LUSOL/lp_LUSOL.h" />
+		<Unit filename="src/bfp/lp_BFP.h" />
+		<Unit filename="src/bfp/lp_BFP1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfp/lp_BFP2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/colamd/colamd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/colamd/colamd.h" />
+		<Unit filename="src/declare.h" />
+		<Unit filename="src/fortify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fortify.h" />
+		<Unit filename="src/ini.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/ini.h" />
+		<Unit filename="src/lp_Hash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_Hash.h" />
+		<Unit filename="src/lp_MDO.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_MDO.h" />
+		<Unit filename="src/lp_MPS.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_MPS.h" />
+		<Unit filename="src/lp_SOS.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_SOS.h" />
+		<Unit filename="src/lp_bit.h" />
+		<Unit filename="src/lp_crash.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_crash.h" />
+		<Unit filename="src/lp_explicit.h" />
+		<Unit filename="src/lp_fortify.h" />
+		<Unit filename="src/lp_lib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_lib.h" />
+		<Unit filename="src/lp_matrix.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_matrix.h" />
+		<Unit filename="src/lp_mipbb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_mipbb.h" />
+		<Unit filename="src/lp_params.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_presolve.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_presolve.h" />
+		<Unit filename="src/lp_price.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_price.h" />
+		<Unit filename="src/lp_pricePSE.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_pricePSE.h" />
+		<Unit filename="src/lp_report.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_report.h" />
+		<Unit filename="src/lp_rlp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_rlp.h" />
+		<Unit filename="src/lp_scale.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_scale.h" />
+		<Unit filename="src/lp_simplex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_simplex.h" />
+		<Unit filename="src/lp_solveDLL.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_solveDLL.h" />
+		<Unit filename="src/lp_types.h" />
+		<Unit filename="src/lp_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_utils.h" />
+		<Unit filename="src/lp_wlp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lp_wlp.h" />
+		<Unit filename="src/lpkit.h" />
+		<Unit filename="src/lpsolve.h" />
+		<Unit filename="src/shared/commonlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/shared/commonlib.h" />
+		<Unit filename="src/shared/mmio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/shared/mmio.h" />
+		<Unit filename="src/shared/myblas.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/shared/myblas.h" />
+		<Unit filename="src/ufortify.h" />
+		<Unit filename="src/yacc_read.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/yacc_read.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

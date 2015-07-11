@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="glpk" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="build/glpk" prefix_auto="1" extension_auto="1" />
+				<Option object_output="build/ob/" />
+				<Option type="3" />
+				<Option compiler="gnu_gcc_compiler_cygwin" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-pipe" />
+					<Add option="-DBUILD_DLL" />
+					<Add directory="src/" />
+					<Add directory="src/amd/" />
+					<Add directory="src/bflib/" />
+					<Add directory="src/cglib/" />
+					<Add directory="src/colamd/" />
+					<Add directory="src/env/" />
+					<Add directory="src/minisat/" />
+					<Add directory="src/misc/" />
+					<Add directory="src/proxy/" />
+					<Add directory="src/zlib/" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lm" />
+					<Add library="user32" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="src/amd/amd.h" />
+		<Unit filename="src/amd/amd_1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/amd/amd_2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/amd/amd_aat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/amd/amd_control.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/amd/amd_defaults.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/amd/amd_dump.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/amd/amd_info.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/amd/amd_internal.h" />
+		<Unit filename="src/amd/amd_order.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/amd/amd_post_tree.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/amd/amd_postorder.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/amd/amd_preprocess.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/amd/amd_valid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/avl.h" />
+		<Unit filename="src/bfd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfd.h" />
+		<Unit filename="src/bflib/btf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bflib/btf.h" />
+		<Unit filename="src/bflib/btfint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bflib/btfint.h" />
+		<Unit filename="src/bflib/fhv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bflib/fhv.h" />
+		<Unit filename="src/bflib/fhvint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bflib/fhvint.h" />
+		<Unit filename="src/bflib/ifu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bflib/ifu.h" />
+		<Unit filename="src/bflib/luf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bflib/luf.h" />
+		<Unit filename="src/bflib/lufint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bflib/lufint.h" />
+		<Unit filename="src/bflib/scf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bflib/scf.h" />
+		<Unit filename="src/bflib/scfint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bflib/scfint.h" />
+		<Unit filename="src/bflib/sgf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bflib/sgf.h" />
+		<Unit filename="src/bflib/sva.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bflib/sva.h" />
+		<Unit filename="src/bfx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/bfx.h" />
+		<Unit filename="src/cglib/cfg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/cglib/cfg.h" />
+		<Unit filename="src/cglib/cfg1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/colamd/colamd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/colamd/colamd.h" />
+		<Unit filename="src/draft.h" />
+		<Unit filename="src/env/alloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/env/dlsup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/env/env.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/env/env.h" />
+		<Unit filename="src/env/error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/env/stdc.h" />
+		<Unit filename="src/env/stdout.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/env/stream.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/env/time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/env/tls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi02.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi03.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi04.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi05.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi06.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi07.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi08.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi09.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi11.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi12.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi13.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi14.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi15.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi16.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi17.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi18.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi19.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi20.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpapi21.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpcpx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpdmx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpgmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpgmp.h" />
+		<Unit filename="src/glphbm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glphbm.h" />
+		<Unit filename="src/glpini01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpini02.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpios.h" />
+		<Unit filename="src/glpios01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpios02.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpios03.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpios04.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpios05.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpios06.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpios07.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpios08.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpios09.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpios10.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpios11.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpios12.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpipm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpipm.h" />
+		<Unit filename="src/glpk.h" />
+		<Unit filename="src/glpmat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpmat.h" />
+		<Unit filename="src/glpmpl.h" />
+		<Unit filename="src/glpmpl01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpmpl02.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpmpl03.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpmpl04.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpmpl05.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpmpl06.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpmps.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpnet03.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpnet04.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpnet05.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpnpp.h" />
+		<Unit filename="src/glpnpp01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpnpp02.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpnpp03.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpnpp04.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpnpp05.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpnpp06.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glprgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glprgr.h" />
+		<Unit filename="src/glpscl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpsdf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpsdf.h" />
+		<Unit filename="src/glpspm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpspm.h" />
+		<Unit filename="src/glpspx.h" />
+		<Unit filename="src/glpspx01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpspx02.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpsql.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpsql.h" />
+		<Unit filename="src/glpssx.h" />
+		<Unit filename="src/glpssx01.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glpssx02.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glptsp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/glptsp.h" />
+		<Unit filename="src/lux.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/lux.h" />
+		<Unit filename="src/minisat/minisat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/minisat/minisat.h" />
+		<Unit filename="src/misc/bignum.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/bignum.h" />
+		<Unit filename="src/misc/dmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/dmp.h" />
+		<Unit filename="src/misc/ffalg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/ffalg.h" />
+		<Unit filename="src/misc/fp2rat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/gcd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/jd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/jd.h" />
+		<Unit filename="src/misc/keller.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/keller.h" />
+		<Unit filename="src/misc/mc13d.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/mc13d.h" />
+		<Unit filename="src/misc/mc21a.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/mc21a.h" />
+		<Unit filename="src/misc/misc.h" />
+		<Unit filename="src/misc/okalg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/okalg.h" />
+		<Unit filename="src/misc/qmd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/qmd.h" />
+		<Unit filename="src/misc/relax4.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/relax4.h" />
+		<Unit filename="src/misc/rng.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/rng.h" />
+		<Unit filename="src/misc/rng1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/round2n.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/str2int.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/str2num.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/strspx.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/strtrim.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/triang.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/triang.h" />
+		<Unit filename="src/misc/wclique.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/wclique.h" />
+		<Unit filename="src/misc/wclique1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/misc/wclique1.h" />
+		<Unit filename="src/prob.h" />
+		<Unit filename="src/proxy/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/proxy/proxy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/proxy/proxy.h" />
+		<Unit filename="src/proxy/proxy1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/adler32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/compress.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/crc32.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/crc32.h" />
+		<Unit filename="src/zlib/deflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/deflate.h" />
+		<Unit filename="src/zlib/gzclose.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/gzguts.h" />
+		<Unit filename="src/zlib/gzlib.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/gzread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/gzwrite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/inffast.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/inffast.h" />
+		<Unit filename="src/zlib/inffixed.h" />
+		<Unit filename="src/zlib/inflate.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/inflate.h" />
+		<Unit filename="src/zlib/inftrees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/inftrees.h" />
+		<Unit filename="src/zlib/trees.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/trees.h" />
+		<Unit filename="src/zlib/uncompr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/zconf.h" />
+		<Unit filename="src/zlib/zio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/zio.h" />
+		<Unit filename="src/zlib/zlib.h" />
+		<Unit filename="src/zlib/zutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/zlib/zutil.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

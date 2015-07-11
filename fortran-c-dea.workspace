@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="Workspace">
+		<Project filename="lp_solve/lp_solve.cbp" />
+		<Project filename="glpk/glpk.cbp" />
+		<Project filename="blas/blas.cbp" />
+		<Project filename="lapack/lapack.cbp" />
+		<Project filename="libseq/libseq.cbp" />
+		<Project filename="mumps/mumps.cbp" />
+		<Project filename="clp/clp.cbp" />
+		<Project filename="Fortran-lp_solve/Fortran-lp_solve.cbp" />
+		<Project filename="Fortran-glpk/Fortran-glpk.cbp" />
+		<Project filename="Fortran-clp/Fortran-clp.cbp" />
+		<Project filename="Fortran-DEA/Fortran-DEA.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>

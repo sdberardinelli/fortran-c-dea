@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="lapack" />
+		<Option pch_mode="2" />
+		<Option compiler="gnu_fortran_compiler_cygwin" />
+		<Build>
+			<Target title="Debug">
+				<Option output="build/lapack1" prefix_auto="1" extension_auto="1" />
+				<Option object_output="build/ob/" />
+				<Option type="3" />
+				<Option compiler="gnu_gcc_compiler_cygwin" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-pedantic-errors" />
+					<Add option="-Wall" />
+					<Add option="-pipe" />
+					<Add option="-Wreturn-type" />
+					<Add option="-DLAPACK_BUILD" />
+					<Add option="-DNDEBUG" />
+					<Add directory="src/" />
+					<Add directory="src/VARIANTS" />
+					<Add directory="src/VARIANTS/cholesky" />
+					<Add directory="src/VARIANTS/cholesky/RL" />
+					<Add directory="src/VARIANTS/cholesky/TOP" />
+					<Add directory="src/VARIANTS/lu" />
+					<Add directory="src/VARIANTS/lu/CR" />
+					<Add directory="src/VARIANTS/lu/LL" />
+					<Add directory="src/VARIANTS/lu/REC" />
+					<Add directory="src/VARIANTS/qr" />
+					<Add directory="src/VARIANTS/qr/LL" />
+				</Compiler>
+				<Linker>
+					<Add option="-lgfortran" />
+					<Add option="-lm" />
+					<Add option="-lblas1" />
+					<Add library="user32" />
+					<Add directory="../blas/build" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="install/dlamch.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="install/slamch.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dbdsqr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgebak.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgebal.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgebd2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgebrd.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgeev.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgehd2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgehrd.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgelq2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgelqf.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgels.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgeqr2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgeqrf.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgesv.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgesvd.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgetf2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgetrf.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgetri.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgetrs.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dggbak.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dggbal.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dggev.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dgghrd.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dhgeqz.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dhseqr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/disnan.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlabad.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlabrd.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlacpy.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dladiv.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlae2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaebz.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaev2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaexc.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlag2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlagtf.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlagts.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlahqr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlahr2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaisnan.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaln2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaneg.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlange.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlanhs.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlanst.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlansy.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlanv2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlapy2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlapy3.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaqr0.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaqr1.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaqr2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaqr3.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaqr4.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaqr5.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlar1v.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarf.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarfb.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarfg.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarft.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarfx.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarnv.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarra.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarrb.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarrc.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarrd.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarre.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarrf.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarrj.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarrk.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarrr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlarrv.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlartg.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlartv.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaruv.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlas2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlascl.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaset.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlasq1.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlasq2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlasq3.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlasq4.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlasq5.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlasq6.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlasr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlasrt.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlassq.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlasv2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlaswp.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlasy2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlasyf.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dlatrd.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dorg2l.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dorg2r.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dorgbr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dorghr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dorgl2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dorglq.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dorgql.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dorgqr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dorgtr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dorm2l.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dorm2r.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dormbr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dormhr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dorml2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dormlq.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dormql.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dormqr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dormtr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dpotf2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dpotrf.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dpotrs.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dppsv.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dpptrf.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dpptrs.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dstebz.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dstein.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dstemr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dsteqr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dsterf.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dsyev.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dsyevr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dsyevx.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dsytd2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dsytf2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dsytrd.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dsytrf.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dsytri.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dtgevc.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dtrevc.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dtrexc.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dtrti2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dtrtri.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/dtrtrs.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/ieeeck.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/iladlc.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/iladlr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/ilaenv.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/iparmq.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/sgetf2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/sgetrf.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/slaswp.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/zgetf2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/zgetrf.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/zlacgv.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/zlacpy.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/zlaev2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/zlaswp.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/zpotf2.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/zrot.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/zsymv.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/zsyr.f">
+			<Option weight="0" />
+		</Unit>
+		<Unit filename="src/zsytri.f">
+			<Option weight="0" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,54 @@
+program main
+    use lp_solve
+    use lp_solve_constants
+    use iso_c_binding
+    implicit none
+    type(c_ptr) :: lp
+
+    type(c_ptr) :: c_majorversion, c_minorversion, c_release, c_build
+
+    integer(c_int), pointer :: majorversion, &
+                               minorversion, &
+                               release,      &
+                               build
+    real(8), dimension(0:5) :: row
+
+    character ( kind = c_char ) :: ret
+
+    call lp_solve_version(c_majorversion,c_minorversion,c_release,c_build)
+
+    call c_f_pointer(c_majorversion, majorversion)
+    call c_f_pointer(c_minorversion, minorversion)
+    call c_f_pointer(c_release,      release)
+    call c_f_pointer(c_build,        build)
+
+    print *, majorversion, minorversion, release, build
+
+    lp = make_lp(0,4)
+
+    row(1) = 0
+    row(2) = 3
+    row(3) = 2
+    row(4) = 2
+    row(5) = 1
+
+    ret = add_constraint(lp,row,LE,4.0_8)
+
+    call print_lp(lp)
+
+    call delete_lp(lp)
+
+    character ( kind = c_char ) :: ret
+
+    character, pointer, dimension(:) :: name
+
+    lp = make_lp(0,4)
+
+    ret = set_lp_name(lp,"test234");
+
+    call c_f_pointer(get_lp_name(lp), name, [ 7 ])
+
+    print *, 'ret is ', ichar(ret)
+    print *, 'lp name is ', name
+    
+end
